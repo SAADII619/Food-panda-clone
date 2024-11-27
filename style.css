@@ -1,0 +1,205 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+
+
+header {
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100vw;
+    box-shadow: 0px 0px 15px rgb(177, 175, 175); 
+    
+
+}
+
+.logo {
+    margin-left: 55px;
+}
+
+.side-bar {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 0px 35px;
+}
+
+.side-bar .buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.buttons .btn-1 {
+    padding: 6px 15px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.buttons .btn-1:hover {
+    transform: scale(1.1);
+    background-color: #efefef;
+}
+
+.buttons .btn-2 {
+    padding: 6px 18px;
+    border-radius: 7px;
+    border: none;
+    background-color: #e21f72;
+    color: white;
+}
+
+.buttons .btn-2:hover {
+    transform: scale(1.1);
+    background-color: #cb3e79;
+    color: white;
+}
+
+.globe {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+
+.globe span {
+    margin: 5px;
+}
+
+.globe:hover {
+    background-color: #efefef;
+    border-radius: 7px;
+}
+
+.bag {
+    padding: 10px;
+}
+
+.bag:hover {
+    background-color: #efefef;
+    border-radius: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f7f7;
+    
+}
+
+
+.sub-container {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+
+.input-group{
+    padding-left: 60px;
+    padding: 10px;
+    width: 95%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 8px rgb(199, 196, 196);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid white;
+}
+input{
+    width: 100%;
+    padding: 10px 90px 10px 10px;
+    border-radius: 7px;
+    font-size: 14px;
+    border: 1px solid rgb(219, 214, 214);
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+.location-icon{
+    position: absolute;
+    right: 80px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.location-text{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 14px;
+}
+
+
+.location span:hover {
+    color: #FF2B85;
+}
+
+input:focus{
+   outline: none;
+}
+
+.btn-3{
+flex-shrink: 0;
+background-color: #FF2B85;
+border: none;
+border-radius: 7px;
+color: white;
+font-family: "Open Sans", sans-serif;
+font-weight: 700;
+padding: 13px 15px;
+left: 10px;
+}
+
+.btn-3:hover{
+    background-color: #C21760;
+    transform: scale(1.04);
+}
+
+
+.heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 60px;
+    font-size: 17px;
+    
+}
+.chef-image-card{
+    height: 330px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 234, 234);
+    border-radius: 20px;
+    position: relative;
+    top: -170px;
+    margin: auto 600px auto 60px;
+    padding-left: 20px;
+    box-shadow: 0px 0px 10px rgb(172, 170, 170);
+}
+.card-heading{
+    color: rgb(65, 62, 62) ;
+    font-weight: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn-4{
+    padding: 14px;
+    border-radius: 8px;
+    border: transparent;
+    background-color:#e21f72;
+    color: white;
+}
+.btn-4:hover{
+    transform: scale(1.1);
+    background-color: #C21760;
+}
